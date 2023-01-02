@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(Background.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 10%;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.name{
+    font-size:28px;
+    color: black;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: powderblue;
+}
+
+.rightnav{
+    width: 50%;
+    padding: 20.6px;
+}
+
+.nv{
+    display: flex;
+    justify-content: right;
+    margin-right: 8px;
+}
+
+.nv li{
+    display: flex;
+    list-style: none;
+    padding: 16px;
+}
+
+.nv li a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+}
+
+.nv li a:hover{
+    color: grey;
+}
+
+.big-logo{
+    display: flex;
+}
+
+.log{
+    text-align: center;
+}
+.big-logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid gray;
+    border-radius: 50%;
+    width: 30%
+}
+.wwy{
+    font-size: 30px;
+}
+
+.content{
+    display: flex;
+    color: black;
+}
+
+.content h3{
+    font-size: 25px;
+    color: black;
+}
+
+.content a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border: 2px solid saddlebrown;
+    border-radius: 20px;
+}
+.content a:hover{
+    color: rgba(0,0,0, 0.6);
+}
+.cs9{
+    width: 25%;
+    text-align: center;
+}
+
+.cs10{
+    width: 25%;
+    text-align: center;
+}
+
+.cs11{
+    width: 25%;
+    text-align: center;
+}
+
+.cs12{
+    width: 25%;
+    text-align: center;
+}
+
+.last{
+    display: flex;
+    background-color: darkslategray;
+}
+
+.againlogo{
+    display: flex;
+    width:40%;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.againlogo img{
+    width: 35%;
+    border: 2px solid gray;
+    border-radius: 50%;
+    /* margin: 10px; */
+}
+.againlogo p{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.other{
+    width: 30%;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    font-size: 21px;
+}
+
+.other a{
+    background-color: bisque;
+    border: 2px solid saddlebrown;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.co{
+    width:30%;
+    color: white;
+    font-size: 21px;
+    text-align: center;
+    padding-top: 45px;
+}
+.co p{
+    font-size: 25px;
+}
+.co img{
+    width: 20%;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+.co a{
+    text-decoration: none;
+}
+
+/* Services */
+.sr{
+    display: flex;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+}
+.sr div{
+    padding: 30px;
+}
+.sr h4{
+    font-size: 30px;
+    text-align: center;
+}
+.sr p{
+    font-size: 20px;
+}
+.our{
+    width: 20%;
+    margin-right: 20px;
+    border: 2px solid darkslategray;
+    border-radius: 20px;
+}
+.more{
+    width: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid darkslategray;
+    border-radius: 20px;
+}
+.price{
+    width:30%;
+    margin-left:20px ;
+    border: 2px solid darkslategray;
+    border-radius: 20px;
+}
+
+
+/* About */
+.info{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info h4{
+    font-size: 23px;
+}
+
+
+/* Contact */
+.phocon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 40px;
+}
+.con{
+    font-size: 40px; 
+    color: rgba(0,0,0, 0.8);
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.detail div h2{
+    padding-left: 10px;
+    text-align: center;
+}
+.detail div li a{
+    text-decoration: none;
+}
+.detail div ul{
+    padding-left: 30px;
+}
+.detail div{
+    width:33.33%;
+}
